@@ -1,0 +1,74 @@
+\documentclass[margin,line,pifont,palatino,courier]{res}
+
+\usepackage{pifont}
+\usepackage[latin1] {inputenc}
+
+%\topmargin .5in
+%\oddsidemargin -.5in
+%\evensidemargin -.5in
+%\textwidth=6.0in
+ \textheight=9.0in
+%\itemsep=0in
+%\parsep=0in
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage[colorlinks = true,
+            linkcolor = blue,
+            urlcolor  = blue,
+            citecolor = blue,
+            anchorcolor = blue]{hyperref}
+%\topmargin=0in
+%\textheight=8.5in
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhf{}
+%\cfoot{\thepage}
+%\lfoot{\textit{\footnotesize Research Statement}}
+\rfoot{}
+
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+\renewcommand\labelitemi{\textbullet{ }}
+
+\usepackage{array}
+\usepackage{varwidth}
+\usepackage{multirow}
+\usepackage{enumitem}
+
+\begin{document}
+
+\name{\Large{Curriculum Vitae} \vspace*{.1in}}
+\title{Curriculum Vitae}
+\begin{resume}
+
+\section{\sc Personal Information}
+
+\vspace{.05in}
+\begin{tabular}{@{}p{1.8in}p{3in}}
+First name \& Surname: & Grzegorz Uriasz \\
+E-mail: & \href{mailto:uriasz.grzegorz@gmail.com}{uriasz.grzegorz@gmail.com} \\
+Mobile: & +48-510-853-467 \\
+Github: & \href{https://github.com/grzegorz225}{https://github.com/grzegorz225} \\
+Linkedin: & \href{https://www.linkedin.com/in/grzegorz-e-uriasz}{https://www.linkedin.com/in/grzegorz-e-uriasz} \\
+\end{tabular}
+
+\input{education.tex}
+\input{experience.tex}
+\input{projects.tex}
+\input{awards.tex}
+\input{skills.tex}
+
+\end{resume}
+\end{document}
