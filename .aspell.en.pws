@@ -1,6 +1,8 @@
-personal_ws-1.1 en 78 
+personal_ws-1.1 en 86 
 APIs
 AVR
+Aeternity
+Blockchain
 CTF
 Cybersecurity
 DMA
@@ -16,6 +18,7 @@ JQuery
 JS
 Jupyter
 Keras
+Kubernetes
 Laboratorium
 Linkedin
 MIM
@@ -30,6 +33,7 @@ PV
 PVH
 PVHVM
 Paravirtualization
+Prolog
 Pwntools
 QEMU
 Qubes
@@ -42,8 +46,10 @@ Trypophobia
 Uriasz
 VM
 VMs
+WIP
 Whonix
 Xen
+ZFS
 al
 disaggregate
 disaggregates
@@ -56,6 +62,7 @@ favourite
 hypercalls
 ing
 kernelspace
+libvirt
 microkernel
 natively
 paravirtualization
@@ -65,6 +72,7 @@ pciback
 pcifront
 persistency
 preconfigured
+qemu
 qube
 qubes
 spacetimes
