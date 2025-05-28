@@ -1,4 +1,4 @@
-#import "@preview/basic-resume:0.2.8": *
+#import "resume.typ": *
 
 // Set up page with GDPR notice in footer
 #set page(paper: "a4", margin: (bottom: 2.5cm), footer: {
@@ -14,7 +14,7 @@
 #let email = "uriasz.grzegorz@gmail.com"
 #let github = "github.com/gorbak25"
 #let linkedin = "linkedin.com/in/grzegorz-e-uriasz"
-#let phone = "+48-510-853-467"
+#let phone = "+48 510 853 467"
 #let personal-site = "gorbak25.eu"
 
 #show: resume.with(
@@ -28,6 +28,7 @@
   accent-color: "#26428b",
   font: "New Computer Modern",
   paper: "a4",
+  text-lang: "en",
   author-position: center,
   personal-info-position: center,
 )
