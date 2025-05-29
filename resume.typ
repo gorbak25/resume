@@ -5,7 +5,6 @@
 #import "@preview/fontawesome:0.5.0": fa-icon
 // </GORBAK_CUSTOM>
 
-
 #let resume(
   author: "",
   author-position: left,
@@ -74,7 +73,7 @@
       weight: 700,
       size: author-font-size,
     )
-    #pad(it.body)
+    #pad(bottom: 0em, it.body)
   ]
 
   // Level 1 Heading
@@ -98,7 +97,8 @@
   // Location under page title
   if location != "" {
     pad(
-      top: 0.25em,
+      top: 0em,
+      bottom: 0em,
       align(center)[
         #set text(
           size: 9pt,
@@ -111,7 +111,8 @@
 
   // Contact info with icons below location
   pad(
-    top: 0.5em,
+    top: -0.6em,
+    bottom: -0.4em,
     align(center)[
       #set box(height: 9pt)
       #set text(
@@ -153,7 +154,10 @@
 
   // Main body.
   set par(justify: true)
-
+  
+  // Add a small space before the main content
+  v(0.3em)
+  
   body
 }
 

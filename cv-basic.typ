@@ -33,9 +33,9 @@
   personal-info-position: center,
 )
 
-#set align(center)
+#set align(left)
 #set text(style: "italic")
-#block(inset: (y: 10pt))[Blockchain developer and cybersecurity expert with extensive experience in distributed systems. Passionate about building secure, high-performance software and sharing knowledge through teaching and open source contributions.]
+#block(inset: (y: -0.5pt), width: 100%)[Blockchain developer and cybersecurity expert with extensive experience in distributed systems. Passionate about building secure, high-performance software and sharing knowledge through teaching and open source contributions.]
 #set text(style: "normal")
 #set align(left)
 
