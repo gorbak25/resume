@@ -1,13 +1,5 @@
 #import "resume.typ": *
 
-// Set up page with GDPR notice in footer
-#set page(paper: "a4", margin: (bottom: 2.5cm), footer: {
-  v(-2em)
-  par(leading: 0.5em, justify: true,
-    text(size: 8pt, style: "italic", fill: gray)[I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the European Parliament's and Council of the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive).]
-  )
-})
-
 // Personal information
 #let name = "Grzegorz Uriasz"
 #let location = "Warsaw, Poland"
@@ -16,6 +8,8 @@
 #let linkedin = "linkedin.com/in/grzegorz-e-uriasz"
 #let phone = "+48 510 853 467"
 #let personal-site = "gorbak25.eu"
+
+#let gdrp-text = "I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the European Parliament's and Council of the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)."
 
 #show: resume.with(
   author: name,
@@ -31,6 +25,9 @@
   text-lang: "en",
   author-position: center,
   personal-info-position: center,
+  gdrp-text: gdrp-text,
+  margin-bottom: 2cm,
+  margin-rest: 1.25cm,
 )
 
 #set align(left)
@@ -99,11 +96,6 @@
 
 == Projects & Activities
 
-#generic-one-by-two(
-  left: [*Projects*],
-  right: "",
-)
-
 - Hocus — Spin up ready-to-code, disposable dev environments on your own servers. Self-hosted alternative to Gitpod and Github Codespaces
 - Erlscripten — Erlang to PureScript transpiler
 - GrTrace — Numerical simulation of light trajectories in curved spacetimes, based upon the equations of General Relativity. The project was awarded with a 4th award in the category of Physics & Astronomy on Intel International Science and Engineering Fair (ISEF)
@@ -159,39 +151,10 @@
 
 == Skills
 
-#generic-one-by-two(
-  left: [*Languages*],
-  right: "Polish (native), English (fluent)",
-)
-
-#generic-one-by-two(
-  left: [*Programming Languages (Proficient)*],
-  right: "Erlang, Elixir, Python, C++, C, Latex, Assembler Intel x86 & x86-64, SQL, JavaScript, Typescript, VueJS, Solidity",
-)
-
-#generic-one-by-two(
-  left: [*Programming Languages (Familiar)*],
-  right: "D, PHP, Java, Ocaml, Bash, Haskell, Prolog, Rust",
-)
-
-#generic-one-by-two(
-  left: [*Cybersecurity*],
-  right: "Reverse Engineering, Binary Exploitation & More, Captain of the Made in MIM CTF team",
-)
-
-#generic-one-by-two(
-  left: [*Operating Systems*],
-  right: "Linux (daily driver for more than 6 years, favourite distro: Arch Linux, familiar with Ubuntu & Debian), Windows",
-)
-
-#generic-one-by-two(
-  left: [*Technologies*],
-  right: "The Phoenix Framework, Django, AWS, Docker, Git, ZFS, Nest JS, Various ORM frameworks",
-)
-
-#generic-one-by-two(
-  left: [*DevSecOps*],
-  right: "Kubernetes, PostgreSQL, ArgoCD, Helm, PgBouncer, familiarity with various Kubernetes Operators, Hashicorp Vault, Teleport(PAM solution)",
-)
-
-
+- *Languages:* Polish (native), English (fluent)
+- *Programming Languages (Proficient):* Erlang, Elixir, Python, C++, C, Latex, Assembler Intel x86 & x86-64, SQL, JavaScript, Typescript, VueJS, Solidity
+- *Programming Languages (Familiar):* D, PHP, Java, Ocaml, Bash, Haskell, Prolog, Rust
+- *Cybersecurity:* Reverse Engineering, Binary Exploitation & More, Captain of the Made in MIM CTF team
+- *Operating Systems:* Linux (daily driver for more than 6 years, favourite distro: Arch Linux, familiar with Ubuntu & Debian), Windows
+- *Technologies:* The Phoenix Framework, Django, AWS, Docker, Git, ZFS, Nest JS, Various ORM frameworks
+- *DevSecOps:* Kubernetes, PostgreSQL, ArgoCD, Helm, PgBouncer, familiarity with various Kubernetes Operators, Hashicorp Vault, Teleport(PAM solution)

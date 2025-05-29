@@ -22,8 +22,11 @@
   paper: "us-letter",
   author-font-size: 20pt,
   font-size: 10pt,
-  // <GORBAK_CUSTOM> added text-lang parameter
+  // <GORBAK_CUSTOM> added text-lang, gdrp-text, margin-* parameter
   text-lang: "en",
+  gdrp-text: "",
+  margin-bottom: 0.5in,
+  margin-rest: 0.5in,
   // </GORBAK_CUSTOM>
   body,
 ) = {
@@ -43,8 +46,13 @@
 
   // Reccomended to have 0.5in margin on all sides
   set page(
-    margin: (0.5in),
+    margin: (rest: margin-rest, bottom: margin-bottom),
     paper: paper,
+    footer: { if gdrp-text != "" {
+      par(leading: 0.5em, justify: true,
+        text(size: 8pt, style: "italic", fill: gray)[#gdrp-text]
+      )
+    }}
   )
 
   // Link styles
