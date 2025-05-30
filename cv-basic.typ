@@ -52,11 +52,11 @@
 #work(
   title: "Co-Founder",
   company: "Hocus",
-  dates: "Feb 2023 - Nov 2023",
+  dates: dates-helper(start-date: "Feb 2023", end-date: "Nov 2023"),
 )
-- Co-founded Hocus, a self-hosted alternative to GitHub Codespaces
-- We got over 3000 stars on GitHub and were featured on the front page of Hacker News multiple times
-- Funding from Pioneer (Daniel Gross)
+- Built an open-source self-hosted alternative to GitHub Codespaces on top of the Temporal workflow engine which attracted funding from Daniel Gross' Pioneer accelerator and got us 2 interviews with Y Combinator.
+- We received over 3000 stars on GitHub and our blog posts got featured on the front page of Hacker News multiple times.
+- Ran sales campaigns to find Enterprise Design Partners and viable pivots via mass outreach and content marketing.
 
 #work(
   title: "Principal Software Engineer/Architect",
