@@ -65,15 +65,11 @@
   location: "Warsaw, Poland",
   dates: dates-helper(start-date: "May 2021", end-date: "Jan 2023"),
 )
-- Developed an crypto fundraising platform with 250 000 active users, migra
-- 
-
-
-- Operated the company's server infrastructure 
-
-- Development of DeFi protocols, management of tech teams, involvement in recruitment processes, conducting technical job interviews, maintenance of server infrastructure
-- Created a high security Hot Wallet system which on the launch day processed a few million USD of value and still operates actively with thousands of ETH transactions made
-- Created a launchpad platform for SMT and LEAN token which raised \$1.2 mln
+- Gradually over multiple months migrated our MVP with 250k active users to a new co-existing NestJS codebase designed to be an basis for an crypto exchange. The new platform was used to fundraise \$1.2 mln for external clients.
+- Lead the SysOps/DevOps team and migrated services to self-hosted kubernetes managed via ArgoCD and SaltStack. 
+- Scaled development by conducting technical interviews, growing the inhouse development team from 5 to 20+ developers, while reporting directly to the CTO and ensuring project alignment with our roadmap and external teams.
+- Co-designed DEFI protocols on the Ethereum blockchain which are currently under NDA.
+- Created a high security scalable EVM Hot Wallet system which on launch day processed millions of dolars in value.
 
 #work(
   title: "Technical Lead",
