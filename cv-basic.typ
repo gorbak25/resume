@@ -52,6 +52,7 @@
 #work(
   title: "Co-Founder",
   company: "Hocus",
+  location: "Warsaw, Poland",
   dates: dates-helper(start-date: "Feb 2023", end-date: "Nov 2023"),
 )
 - Built an open-source self-hosted alternative to GitHub Codespaces on top of the Temporal workflow engine which attracted funding from Daniel Gross' Pioneer accelerator and got us 2 interviews with Y Combinator.
@@ -59,11 +60,17 @@
 - Ran sales campaigns to find Enterprise Design Partners and viable pivots via mass outreach and content marketing.
 
 #work(
-  title: "Principal Software Engineer/Architect",
+  title: "Principal Software Engineer",
   company: "Student Coin",
   location: "Warsaw, Poland",
-  dates: "May 2021 - Jan 2023",
+  dates: dates-helper(start-date: "May 2021", end-date: "Jan 2023"),
 )
+- Developed an crypto fundraising platform with 250 000 active users, migra
+- 
+
+
+- Operated the company's server infrastructure 
+
 - Development of DeFi protocols, management of tech teams, involvement in recruitment processes, conducting technical job interviews, maintenance of server infrastructure
 - Created a high security Hot Wallet system which on the launch day processed a few million USD of value and still operates actively with thousands of ETH transactions made
 - Created a launchpad platform for SMT and LEAN token which raised \$1.2 mln
@@ -72,33 +79,30 @@
   title: "Technical Lead",
   company: "Aeternity Blockchain",
   location: "Remote",
-  dates: "August 2020 - April 2021",
+  dates: dates-helper(start-date: "Aug 2020", end-date: "Apr 2021"),
 )
-- Research and Development of Aeternity's Hyperchains blockchain consensus algorithm
+- Lead the team responsible for the Aeternity's Hyperchains consensus algorithm. Wrote the #link("https://github.com/aeternity/hyperchains-whitepaper/releases/download/2.0.0/whitepaper.pdf")[whitepaper] for it.
+- Created #link("https://github.com/erlscripten/erlscripten")[Erlscripten] which was an open-source Erlang to PureScript transpiler.
 
 #work(
   title: "Blockchain Developer",
   company: "Aeternity Blockchain",
   location: "Remote",
-  dates: "August 2018 - Jul 2020",
+  dates: dates-helper(start-date: "Aug 2018", end-date: "Jul 2020"),
 )
-- Development of state channel technology in cryptocurrency nodes
-- Elixir and Erlang software development
+- Developed state channel technology in Erlang as part of the core Erlang team working on the Aeternity node.
+- Worked on an alternate Aeternity protocol implementation in Elixir.
 
 #work(
   title: "Web Application Security & Python Developer",
   company: "Laboratorium EE",
   location: "Remote",
-  dates: "April - November 2017",
+  dates: dates-helper(start-date: "Apr 2017", end-date: "Nov 2017"),
 )
-- Developed an automated web vulnerability scanner
+- Developed an automated web vulnerability scanner using Python and Django.
 
 == Projects & Activities
-
-- Hocus — Spin up ready-to-code, disposable dev environments on your own servers. Self-hosted alternative to Gitpod and Github Codespaces
-- Erlscripten — Erlang to PureScript transpiler
 - GrTrace — Numerical simulation of light trajectories in curved spacetimes, based upon the equations of General Relativity. The project was awarded with a 4th award in the category of Physics & Astronomy on Intel International Science and Engineering Fair (ISEF)
-- Aeternity Node — Many contributions to the cryptocurrency node which powers the Aeternity Blockchain
 - Trypophobia Image Detector — Web browser extension implementing client side censoring of disturbing images via deep neural networks using Keras.JS
 - Organizing a Capture the Flag Cybersecurity competition for high school students during the 13th, 14th, 15th and 16th Summer Scientific School
 
