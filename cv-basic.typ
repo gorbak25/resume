@@ -39,20 +39,19 @@
 == Education
 
 #edu(
-  institution: "University of Warsaw, Warsaw, Poland",
-  location: "MISMaP program",
-  dates: "October 2017 - June 2020",
-  degree: "Computer Science and Physics",
+  institution: "University of Warsaw, MIMUW",
+  dates: dates-helper(start-date: "Oct 2017", end-date: "Jun 2020"),
+  degree: "Bachelor's degree in Computer Science",
+  compact: true
 )
-- Simultaneous undergraduate studies in Computer Science and Physics
-- Bachelor's degree in Computer Science from MIMUW
+- Thesis "GPU passthrough in Qubes OS" resulted in patches for the xen hypervisor, qemu and libvirt capable of isolating an physical GPU to a designated security domain in Qubes OS. Some of my patches got #link("https://github.com/xen-project/xen/commit/f325d2477eef8229c47d97031d314629521c70ab")[upstreamed].
+- Founded the #link("https://ctftime.org/team/48557/")[Made In MIM] CTF team and became its Captain. The team was rated 25th in the world in 2018.
 
 == Work Experience
 
 #work(
   title: "Co-Founder",
   company: "Hocus",
-  location: "https://hocus.dev",
   dates: "Feb 2023 - Nov 2023",
 )
 - Co-founded Hocus, a self-hosted alternative to GitHub Codespaces
@@ -62,7 +61,7 @@
 #work(
   title: "Principal Software Engineer/Architect",
   company: "Student Coin",
-  location: "",
+  location: "Warsaw, Poland",
   dates: "May 2021 - Jan 2023",
 )
 - Development of DeFi protocols, management of tech teams, involvement in recruitment processes, conducting technical job interviews, maintenance of server infrastructure
@@ -72,7 +71,7 @@
 #work(
   title: "Technical Lead",
   company: "Aeternity Blockchain",
-  location: "",
+  location: "Remote",
   dates: "August 2020 - April 2021",
 )
 - Research and Development of Aeternity's Hyperchains blockchain consensus algorithm
@@ -80,7 +79,7 @@
 #work(
   title: "Blockchain Developer",
   company: "Aeternity Blockchain",
-  location: "",
+  location: "Remote",
   dates: "August 2018 - Jul 2020",
 )
 - Development of state channel technology in cryptocurrency nodes
@@ -89,7 +88,7 @@
 #work(
   title: "Web Application Security & Python Developer",
   company: "Laboratorium EE",
-  location: "",
+  location: "Remote",
   dates: "April - November 2017",
 )
 - Developed an automated web vulnerability scanner
@@ -100,7 +99,6 @@
 - Erlscripten — Erlang to PureScript transpiler
 - GrTrace — Numerical simulation of light trajectories in curved spacetimes, based upon the equations of General Relativity. The project was awarded with a 4th award in the category of Physics & Astronomy on Intel International Science and Engineering Fair (ISEF)
 - Aeternity Node — Many contributions to the cryptocurrency node which powers the Aeternity Blockchain
-- GPU passthrough in Qubes OS — Bachelor Thesis, this project exists as a series of patches for xen, qemu, libvirt etc... capable of isolating the GPU to a designated security domain in Qubes OS
 - Trypophobia Image Detector — Web browser extension implementing client side censoring of disturbing images via deep neural networks using Keras.JS
 - Organizing a Capture the Flag Cybersecurity competition for high school students during the 13th, 14th, 15th and 16th Summer Scientific School
 

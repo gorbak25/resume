@@ -209,8 +209,16 @@
   location: "",
   // Makes dates on upper right like rest of components
   consistent: false,
+  // New parameter to use the compact one-line format
+  compact: false,
 ) = {
-  if consistent {
+  if compact {
+    // New compact one-line format using generic-one-by-two
+    generic-one-by-two(
+      left: [#strong(institution) -- #degree  #if location != "" [- #location]],
+      right: dates,
+    )
+  } else if consistent {
     // edu-constant style (dates top-right, location bottom-right)
     generic-two-by-two(
       top-left: strong(institution),
@@ -235,11 +243,9 @@
   company: "",
   location: "",
 ) = {
-  generic-two-by-two(
-    top-left: strong(title),
-    top-right: dates,
-    bottom-left: company,
-    bottom-right: emph(location),
+  generic-one-by-two(
+    left: [#strong(title + ",") #company #if location != "" [-- #location]],
+    right: dates,
   )
 }
 
