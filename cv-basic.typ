@@ -36,19 +36,7 @@
 #set text(style: "normal")
 #set align(left)
 
-== Education
-
-#edu(
-  institution: "University of Warsaw, MIMUW",
-  dates: dates-helper(start-date: "Oct 2017", end-date: "Jun 2020"),
-  degree: "Bachelor's degree in Computer Science",
-  compact: true
-)
-- Thesis "GPU passthrough in Qubes OS" resulted in patches for the xen hypervisor, qemu and libvirt capable of isolating an physical GPU to a designated security domain in Qubes OS. Some of my patches got #link("https://github.com/xen-project/xen/commit/f325d2477eef8229c47d97031d314629521c70ab")[upstreamed].
-- Founded the #link("https://ctftime.org/team/48557/")[Made In MIM] CTF team and became its Captain. The team was rated 25th in the world in 2018.
-
 == Work Experience
-
 #work(
   title: "Co-Founder",
   company: "Hocus",
@@ -97,43 +85,48 @@
 )
 - Developed an automated web vulnerability scanner using Python and Django.
 
-== Projects & Activities
+== Education
+#edu(
+  institution: "University of Warsaw, MIMUW",
+  dates: dates-helper(start-date: "Oct 2017", end-date: "Jun 2020"),
+  degree: "Bachelor's degree in Computer Science",
+  compact: true
+)
+- Thesis "GPU passthrough in Qubes OS" resulted in patches for the xen hypervisor, qemu and libvirt capable of isolating an physical GPU to a designated security domain in Qubes OS. Some of my patches got #link("https://github.com/xen-project/xen/commit/f325d2477eef8229c47d97031d314629521c70ab")[upstreamed].
+- Founded the #link("https://ctftime.org/team/48557/")[Made In MIM] CTF team and became its Captain. The team was rated 25th in the world in 2018.
+
+== Achievements & Scholarships
+#generic-one-by-two(
+  left: [#link("https://www.cee.org/sites/default/files/PR/PDF/2017_rsi_convention_at_mit.pdf")[34#super[th] Research Science Institute], 6-week academic research program held at MIT, Massachusetts, USA.],
+  right: "2017"
+)
+
+#generic-one-by-two(
+  left: [Officially represented Poland 5 times in the #link("https://ecsc.eu/")[European Cybersecurity Challenge] CTF.],
+  right: dates-helper(start-date: "2018", end-date: "2023")
+)
+
+#generic-one-by-two(
+  left: [4#super[th] place award in the category of Physics & Astronomy at #link("https://www.societyforscience.org/press-release/intel-international-science-and-engineering-fair-2017-grand-award-winners/")[Intel ISEF] in Los Angeles, USA.],
+  right: "2017"
+)
+
+#generic-one-by-two(
+  left: [Finalist of the XXIII and XXIV #link("https://oi.edu.pl/contestants/Grzegorz%20Eugeniusz%20Uriasz/")[Polish Olympiad in Computer Science].],
+  right: "2016 - 2017"
+)
+
+#generic-one-by-two(
+  left: [Finalist of the LX Polish Olympiad in Astronomy and LXV Polish Olympiad in Physics],
+  right: "2016 - 2017"
+)
+
+== Projects, Activities & Volunteering
 - GrTrace — Numerical simulation of light trajectories in curved spacetimes, based upon the equations of General Relativity. The project was awarded with a 4th award in the category of Physics & Astronomy on Intel International Science and Engineering Fair (ISEF)
 - Trypophobia Image Detector — Web browser extension implementing client side censoring of disturbing images via deep neural networks using Keras.JS
 - Organizing a Capture the Flag Cybersecurity competition for high school students during the 13th, 14th, 15th and 16th Summer Scientific School
 
-== Awards & Scholarships
-
-#generic-two-by-two(
-  top-left: "Research Science Institute",
-  top-right: "2017",
-  bottom-left: "Massachusetts Institute of Technology, USA",
-  bottom-right: ""
-)
-
-#generic-two-by-two(
-  top-left: "European Cybersecurity Challenge",
-  top-right: "2018 - 2023",
-  bottom-left: "Represented Poland in the competition",
-  bottom-right: ""
-)
-
-#generic-two-by-two(
-  top-left: "Intel International Science and Engineering Fair",
-  top-right: "2017",
-  bottom-left: "4th award winner (Los Angeles, USA)",
-  bottom-right: "\"Numerical Methods of Raytracing in Curved Spacetimes According to Einstein's Theory of General Relativity\""
-)
-
-#generic-two-by-two(
-  top-left: "Final stages of multiple Polish Science Olympiads",
-  top-right: "2016 - 2017",
-  bottom-left: "Physics, 2x Computer Science, Astronomy",
-  bottom-right: "",
-)
-
 == Teaching
-
 #generic-one-by-two(
   left: [*Workshops in an 3h x 3days formula*],
   right: "",
