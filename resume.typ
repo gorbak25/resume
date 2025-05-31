@@ -49,6 +49,7 @@
     margin: (rest: margin-rest, bottom: margin-bottom),
     paper: paper,
     footer: { if gdrp-text != "" {
+      v(-0.4em)
       par(leading: 0.5em, justify: true,
         text(size: 8pt, style: "italic", fill: gray)[#gdrp-text]
       )
@@ -161,7 +162,7 @@
   )
 
   // Main body.
-  set par(justify: true)
+  set par(justify: true, spacing: 0.9em, leading: 0.6em)
   
   // Add a small space before the main content
   v(0.3em)

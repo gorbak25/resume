@@ -26,10 +26,11 @@
   author-position: center,
   personal-info-position: center,
   gdrp-text: gdrp-text,
-  margin-bottom: 2cm,
+  margin-bottom: 1.8cm,
   margin-rest: 1.25cm,
 )
 
+#v(-0.3em)
 #set align(left)
 #set text(style: "italic")
 #block(inset: (y: -0.5pt), width: 100%)[Blockchain developer and cybersecurity expert with extensive experience in distributed systems. Passionate about building secure, high-performance software and sharing knowledge through teaching and open source contributions.]
@@ -96,56 +97,42 @@
 - Founded the #link("https://ctftime.org/team/48557/")[Made In MIM] CTF team and became its Captain. The team was rated 25th in the world in 2018.
 
 == Achievements & Scholarships
-#generic-one-by-two(
+#block([
+  // So it uses way more compact layout
+#set list(marker: [])
+- #generic-one-by-two(
   left: [#link("https://www.cee.org/sites/default/files/PR/PDF/2017_rsi_convention_at_mit.pdf")[34#super[th] Research Science Institute], 6-week academic research program held at MIT, Massachusetts, USA.],
   right: "2017"
 )
-
-#generic-one-by-two(
+- #generic-one-by-two(
   left: [Officially represented Poland 5 times in the #link("https://ecsc.eu/")[European Cybersecurity Challenge] CTF.],
   right: dates-helper(start-date: "2018", end-date: "2023")
 )
-
-#generic-one-by-two(
+- #generic-one-by-two(
   left: [4#super[th] place award in the category of Physics & Astronomy at #link("https://www.societyforscience.org/press-release/intel-international-science-and-engineering-fair-2017-grand-award-winners/")[Intel ISEF] in Los Angeles, USA.],
   right: "2017"
 )
-
-#generic-one-by-two(
+- #generic-one-by-two(
   left: [Finalist of the XXIII and XXIV #link("https://oi.edu.pl/contestants/Grzegorz%20Eugeniusz%20Uriasz/")[Polish Olympiad in Computer Science].],
   right: "2016 - 2017"
 )
-
-#generic-one-by-two(
+- #generic-one-by-two(
   left: [Finalist of the LX Polish Olympiad in Astronomy and LXV Polish Olympiad in Physics],
   right: "2016 - 2017"
 )
+])
 
 == Projects, Activities & Volunteering
-- GrTrace — Numerical simulation of light trajectories in curved spacetimes, based upon the equations of General Relativity. The project was awarded with a 4th award in the category of Physics & Astronomy on Intel International Science and Engineering Fair (ISEF)
-- Trypophobia Image Detector — Web browser extension implementing client side censoring of disturbing images via deep neural networks using Keras.JS
-- Organizing a Capture the Flag Cybersecurity competition for high school students during the 13th, 14th, 15th and 16th Summer Scientific School
-
-== Teaching
-#generic-one-by-two(
-  left: [*Workshops in an 3h x 3days formula*],
-  right: "",
-)
-
-- Writing graphic applications using modern OpenGL (August 2016)
-- Pwn-ing Linux (August 2017, July 2019)
-- Learn Python (October 2017, May 2018, May 2019)
-- Cracking self-made cryptographic ciphers (May 2018)
-- Introduction to Reverse Engineering (July 2018, August 2020)
-- Introduction to smart contracts (May 2019, July 2019)
-- Stock market basics (August 2021)
+- Organized 12 workshops for gifted high school students teaching them Cybersecurity, Blockchain and Programming.
+- Organized a Cybersecurity CTF for beginners 4 times at the #link("https://warsztatywww.pl/")[WWW Science Camp] and prepared challenges for it.
+- Authored 3 CTF challenges(including a blockchain one) for the Polish ECSC 2024 Qualifiers via a #link("https://nask.pl/")[NASK] commission.
+- GrTrace - General Relativity raytracer written in D with TCL scripting. Presented at Intel ISEF 2017
+- MapaNFZ - interactive map of public Polish Healthcare providers written in React and Typescript.
 
 == Skills
-
-- *Languages:* Polish (native), English (fluent)
-- *Programming Languages (Proficient):* Erlang, Elixir, Python, C++, C, Latex, Assembler Intel x86 & x86-64, SQL, JavaScript, Typescript, VueJS, Solidity
-- *Programming Languages (Familiar):* D, PHP, Java, Ocaml, Bash, Haskell, Prolog, Rust
-- *Cybersecurity:* Reverse Engineering, Binary Exploitation & More, Captain of the Made in MIM CTF team
-- *Operating Systems:* Linux (daily driver for more than 6 years, favourite distro: Arch Linux, familiar with Ubuntu & Debian), Windows
-- *Technologies:* The Phoenix Framework, Django, AWS, Docker, Git, ZFS, Nest JS, Various ORM frameworks
-- *DevSecOps:* Kubernetes, PostgreSQL, ArgoCD, Helm, PgBouncer, familiarity with various Kubernetes Operators, Hashicorp Vault, Teleport(PAM solution)
+- *Programming:* Solidity, Typescript, Rust, SQL, Python, Erlang/Elixir. Touched multiple others over the years.
+- *Algorithms:* Multi year experience with competitive programming before university.
+- *Cybersecurity:* Multi-year experience with CTFs, reverse engineering, binary exploitation and more.
+- *Containers and Virtualization:* Low level knowledge. Contributed to the #link("https://github.com/firecracker-microvm/firecracker/commit/f472eda1e13f7ae4172d974ea81547c32dfb9a41")[Firecracker] and #link("https://github.com/xen-project/xen/commit/f325d2477eef8229c47d97031d314629521c70ab")[Xen] hypervisor.
+- *Kubernetes:* ArgoCD, Helm, Operators, self-hosting, experience with different runtimes like sysbox or kube-virt.
+- *Languages:* Polish (native), English (fluent).
