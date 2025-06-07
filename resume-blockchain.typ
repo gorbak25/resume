@@ -127,11 +127,11 @@
 - Organized 12 workshops about cybersecurity, blockchain, and programming for gifted high school students.
 - Organized a cybersecurity CTF for beginners four times at the #link("https://warsztatywww.pl/")[WWW Science Camp], and prepared challenges for it.
 - Authored 3 CTF challenges (including a blockchain one) for the Polish ECSC 2024 Qualifiers via a #link("https://nask.pl/")[NASK] commission.
-- #link("https://github.com/grtrace/grtrace")[GrTrace] $dash.em$ General Relativity raytracer written in D with Tcl scripting. Presented at Intel ISEF 2017.
 - #link("https://mapanfz.pl/")[MapaNFZ] $dash.em$ Interactive map of public Polish healthcare providers written in React and TypeScript.
+- #link("https://github.com/grtrace/grtrace")[GrTrace] $dash.em$ General Relativity raytracer written in D with Tcl scripting. Presented at Intel ISEF 2017.
 
 == Skills
-- *Programming:* Solidity, TypeScript, Rust, SQL, Python, Erlang/Elixir, and many others over the years.
+- *Programming:* Solidity, TypeScript, Rust, Erlang/Elixir, SQL, Python, and many others over the years.
 - *Algorithms:* Multi-year experience with competitive programming.
 - *Cybersecurity:* Multi-year experience with CTFs, reverse engineering, binary exploitation, and more.
 - *Containers and Virtualization:* Low-level knowledge. Contributed to the #link("https://github.com/firecracker-microvm/firecracker/commit/f472eda1e13f7ae4172d974ea81547c32dfb9a41")[Firecracker] and #link("https://github.com/xen-project/xen/commit/f325d2477eef8229c47d97031d314629521c70ab")[Xen] hypervisors.
