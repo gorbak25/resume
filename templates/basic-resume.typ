@@ -198,7 +198,7 @@
   start-date: "",
   end-date: "",
 ) = {
-  start-date + " " + $dash.em$ + " " + end-date
+  start-date + " " + $dash.en$ + " " + end-date
 }
 
 // Section components below
@@ -216,7 +216,7 @@
   if compact {
     // New compact one-line format using generic-one-by-two
     generic-one-by-two(
-      left: [#strong(institution) -- #degree  #if location != "" [- #location]],
+      left: [#strong(institution) $dash.em$ #degree  #if location != "" [$dash.em$ #location]],
       right: dates,
     )
   } else if consistent {
@@ -245,7 +245,7 @@
   location: "",
 ) = {
   generic-one-by-two(
-    left: [#strong(title + ",") #company #if location != "" [-- #location]],
+    left: [#strong(title + ",") #company #if location != "" [$dash.em$ #location]],
     right: dates,
   )
 }
